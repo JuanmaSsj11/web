@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cancionero de Alabanza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cancionero de Alabanza</h1>
+
+  <div class="buscador">
+    <input type="text" id="busqueda" placeholder="Buscar canción...">
+    <select id="filtroCategoria">
+      <option value="">Todas</option>
+      <option value="Alabanza">Alabanza</option>
+      <option value="Adoración">Adoración</option>
+    </select>
+    <button onclick="buscarCanciones()">Buscar</button>
+  </div>
+
+  <div id="resultados">
+    <!-- Aquí se mostrarán las canciones -->
+  </div>
+
+  <div id="setlist">
+    <h2>Setlist</h2>
+    <ul id="listaSetlist"></ul>
+    <button onclick="limpiarSetlist()">Limpiar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
