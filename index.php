@@ -1,17 +1,16 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Cancionero de Alabanza</title>
+  <title>Canciones de Iglesia de Cristo en Acapulco</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Canciones Iglesia de Cristo en Acapulco</h1>
+  <h1>Lista de canciones</h1>
 
   <div class="buscador">
     <input type="text" id="busqueda" placeholder="Buscar canción...">
-    <select id="filtroCategoria">
+    <select id="categoria">
       <option value="">Todas</option>
       <option value="Alabanza">Alabanza</option>
       <option value="Adoración">Adoración</option>
@@ -19,14 +18,8 @@
     <button onclick="buscarCanciones()">Buscar</button>
   </div>
 
-  <div id="resultados">
-    <!-- Aquí se mostrarán las canciones -->
-  </div>
-
-  <div id="setlist">
-    <h2>Lista de canciones</h2>
-    <ul id="listaSetlist"></ul>
-    <button onclick="limpiarSetlist()">Limpiar</button>
+  <div id="listaCanciones">
+    <p>Cargando canciones...</p>
   </div>
 
   <script src="script.js"></script>
