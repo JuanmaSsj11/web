@@ -10,9 +10,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("sss", $titulo, $categoria, $letra);
 
     if ($stmt->execute()) {
-        echo "✅ Canción agregada correctamente. <a href='cargar_cancion.php'>Agregar otra</a>";
+        echo "Canción agregada correctamente. <a href='cargar_cancion.php'>Agregar otra</a>";
     } else {
-        echo "❌ Error: " . $stmt->error;
+        echo "Error: " . $stmt->error;
     }
 
     $stmt->close();
