@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Canciones de Iglesia de Cristo en Acapulco</title>
+  <title>Cancionero</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lista de canciones</h1>
+  <h1>Cancionero del Grupo</h1>
 
   <div class="buscador">
     <input type="text" id="busqueda" placeholder="Buscar canción...">
@@ -25,3 +25,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
