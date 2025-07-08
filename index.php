@@ -1,3 +1,6 @@
+<?php
+// index.php
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -21,6 +24,11 @@
   <div id="listaCanciones">
     <p>Cargando canciones...</p>
   </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
   <script src="script.js"></script>
 </body>
